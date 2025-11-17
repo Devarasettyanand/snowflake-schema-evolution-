@@ -23,6 +23,7 @@ Snowflake’s native schema evolution and schema inference capabilities solve th
 This repository walks step-by-step through:
 
 ✔ Creating a storage integration to access S3
+
 ✔ Creating an external stage to read JSON files
 ✔ Automatically inferring schema from JSON using INFER_SCHEMA
 ✔ Auto-creating a table using USING TEMPLATE
