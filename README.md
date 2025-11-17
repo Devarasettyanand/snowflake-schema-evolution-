@@ -25,11 +25,17 @@ This repository walks step-by-step through:
 ✔ Creating a storage integration to access S3
 
 ✔ Creating an external stage to read JSON files
+
 ✔ Automatically inferring schema from JSON using INFER_SCHEMA
+
 ✔ Auto-creating a table using USING TEMPLATE
+
 ✔ Loading the first dataset (v1) with a stable schema
+
 ✔ Enabling schema evolution on the target table
+
 ✔ Loading a second dataset (v2) with a changed schema
+
 ✔ Snowflake automatically:
 
 Detects new columns
@@ -41,6 +47,7 @@ Handles type drift safely
 Preserves original data
 
 🧪 Files Used in This Project
+
 transactions_v1.json
 
 Flat schema (transaction, user, payment, timestamp).
@@ -70,6 +77,7 @@ Snowflake auto-creates the table structure.
 Data is loaded with COPY INTO.
 
 When new files with additional fields arrive,
+
 Snowflake seamlessly merges the schema without breaking the pipeline.
 
 🏢 Why This Project Is Realistic for Enterprise
