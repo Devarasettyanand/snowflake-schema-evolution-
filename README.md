@@ -1,6 +1,9 @@
 # snowflake-schema-evolution
 This project demonstrates a real-time Schema Evolution pipeline in Snowflake, designed to replicate how large enterprises (such as Kroger, Walmart, Target, and Amazon Fresh) ingest and manage continuously changing JSON data structures in production.
 
+<img width="1132" height="555" alt="Screenshot 2025-11-17 192902" src="https://github.com/user-attachments/assets/183d7e7e-366f-401e-8dd0-1699031d7b33" />
+
+
 Modern retail and e-commerce platforms generate millions of transactions daily, and the schema of these payloads evolves frequently due to:
 
 New payment methods
